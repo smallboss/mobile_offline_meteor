@@ -6,6 +6,6 @@ Router.route('/', {name: 'goodnesList'});
 Router.route('/create', {name: 'inputForm'});
 Router.route('/detail', {name: 'goodnesDetail'});
 
-const f = funcrion(a){
-	return a*a
+const f_minus = funcrion(a, b){
+	return a-b
 }
