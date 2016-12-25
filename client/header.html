@@ -1,0 +1,14 @@
+<template name="header">
+  <nav class="teal darken-3">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">{{title}}</a>
+
+      {{#if isBackVisible}}
+	      <ul id="nav-mobile" class="left">
+	        <li><a href="/"><i class="large material-icons">navigate_before</i></a></li>
+	      </ul>
+      {{/if}}
+
+    </div>
+  </nav>
+</template>
